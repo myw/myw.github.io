@@ -1,0 +1,242 @@
+/* Stylesheet for Personal Webpage 
+ * MYW 7/17/05
+ */
+
+/* Globals */
+body { 
+	margin:                0;
+	padding:               0;
+	/*font-family:           "Palatino Linotype", palatino, "Times New Roman", serif */;
+	font-family:           "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:        #ddd url("../img/myw-bg.gif") repeat-y fixed top center; 
+	/*background-image:      url(../img/bg.gif); */
+	/*background-image:    url(http://squidfingers.com/patterns/patterns/img_117.gif);*/
+	color:                 #eee;
+	height:                100%;
+}
+a {
+	text-decoration: none;
+	color:           #949fa4;
+}
+a:visited { 
+	color:          #999;
+}
+a:hover {
+	color: #949fa4;
+}
+address {
+	font-style: normal;
+}
+acronym {
+	border-bottom:  none;
+	text-transform: uppercase;
+	font-size:      smaller;
+}
+abbr {
+	border-bottom: none
+}
+ul {
+	list-style-type: none;
+}
+.block {
+	text-align:     left;
+	border-color:   #949fa4;
+	/*background:     #4f5155; */
+	margin:         30px 10px;
+	padding-bottom: 30px;
+	padding-left:   30px;
+	padding-right:  5px;
+	padding-top:    10px;
+	border-style:   solid;
+	border-width:   0;
+}
+.photo {
+	float:          right;
+	border-width:   1px;
+	border-style:   solid;
+	border-color:   #949fa4;
+	padding:        5px;
+	margin-right:   12px;
+	margin-top:     20px;
+	vertical-align: middle;
+	position:       relative;
+	bottom:         15px;
+}
+.photo img {
+	width: 176px;
+	height: 216px;
+}
+.colBlock {  
+	margin:       30px 10px;
+	background:   none;
+	padding:      0;
+	height: 9.5em;
+	border: solid #949fa4;
+	border-width: 1px 0;
+}
+.col {
+	padding-top: 1em; 
+	height: 100%;
+	border-color:   #949fa4;
+	width:		243px;
+	/*background:     #4f5155; */
+	padding-left:   30px;
+	border-style:   solid;
+	border-width: 0;
+}
+.right {
+	float: right;
+}
+.datum {
+	margin: 2px 30px;
+}
+.focus {
+	margin:         10px 30px;
+	padding:        5px;
+	text-align:     center;
+	vertical-align: middle;
+}
+.photoCaption {
+	font-size:  xx-small;
+	text-align: right;
+	font-style: italic;
+}
+.sign {
+	color:      #aaa;
+	font-style: italic;
+}
+.comp {
+	color:       #ccc;
+	font-family: courier, monospace;
+}
+a.comp {
+	text-decoration: none;
+	color:           #949fa4;
+}
+
+/* prop-clear trick */
+.clear {
+	height: 1px;
+	clear: both;
+	overflow: hidden;
+}
+
+.linkRef {
+	float:        left;
+	text-align: right;
+	width: 243px;
+}
+.linkDesc {
+	margin:       2px 25px 2px 0;
+	width: 243px;
+	margin-left: 273px;
+	text-align: left;
+}
+.icon {
+	float:        left;
+	margin-left:  30px;
+	margin-right: -20px;
+}
+.linkBull {
+	float: left;
+	width: 30px;
+	text-align: center;
+	font-size: x-small;
+	padding-top: 0.3em;
+}
+.linkHead {
+	text-align: center;
+}
+
+/* IDs */
+#header {
+	text-align:          center;
+	border-color:        #949fa4; 
+	border-width:        1px;
+	border-bottom-style: solid;
+	width:               600px;
+}
+#header a:visited {
+	color: #aaa;
+}
+#about {
+	border-width: 1px 0 1px 0;
+}
+
+#footer  {
+	height:           10%;
+	border-width:     1px;
+	border-color:     #949fa4; 
+	border-top-style: solid;
+	font-size:        x-small;
+	position:         relative;
+	bottom:           0;
+	padding-top: 3px;
+	padding-bottom:   20px;
+}
+#footer a:visited {
+	color: #aaa;
+}
+#footer .left {
+	float:      left;
+	text-align: left;
+}
+#footer .right {
+	text-align: right;
+	float:      right;
+}
+#container {
+	background: #333; 
+	text-align:          left;
+	width:               600px;
+	min-height:          100%;
+	border-width:        0px;
+	border-color:        #949fa4; 
+	border-style:        solid;
+	padding:             30px;
+	margin-left:         auto;
+	margin-right:        auto;
+}
+
+#schedule {
+	border-collapse: separate;
+	table-layout:    fixed;
+	width:           100%;
+	padding:         0 10px;
+	margin-bottom:   30px;
+}
+#schedule caption {
+	margin:      30px 0 10px 0;
+	font-size:   x-large;
+	font-weight: bolder;
+}
+#schedule tr {
+	height: 25px;
+}
+#schedule th {
+	text-align: center;
+	width:      94px;
+}
+#schedule th.time {
+	width:        40px;
+	text-align:   left;
+	border-style: none;
+}
+#schedule td {
+	border-style: solid;
+	border-color:   #744d27; 
+	text-align:   center;
+	background:   #4682b4;
+	border-width: 3px;
+	margin:       9px;
+	padding:      6px;
+	/*-moz-border-radius: 15px;*/
+}
+#schedule td.blank {
+	border-style: none;
+	background:   none;
+}
+#schedule td.hidden {
+	display: none;
+}
+
