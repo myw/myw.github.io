@@ -100,11 +100,11 @@ dd {
 
 @media screen {
     html {
-        background-color: #ffe;
+        background-color: #eee8d5;
     }
 
     body {
-        color: #444;
+        color: #073642;
         width: 860px;
     }
 
@@ -113,7 +113,7 @@ dd {
     }
     h4 {
         padding: 1em;
-        background-color: #ddd;
+        background-color: #93a1a1;
     }
 
     ul.dialogue li {
@@ -126,9 +126,10 @@ dd {
     }
 
     .author, .author-note {
-        color: #669;
+        color: #268bd2;
     }
+
     .translator, .translator-note {
-        color: #696;
+        color: #cb4b16;
     }
 }
