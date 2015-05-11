@@ -1,0 +1,134 @@
+body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    margin: auto;
+}
+h1, h2, h3 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+tt.telegram {
+    font-family: monospace;
+}
+abbr {
+    font-style: italic;
+}
+h1 {
+    font-size: 24pt;
+}
+h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 14pt;
+}
+h4 {
+    font-weight: normal;
+}
+
+ul.dialogue li {
+    list-style-type: none;
+    text-indent: -1ex;
+    margin-bottom: 0.2em;
+}
+
+dt {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+dd {
+    margin: 0;
+    margin-left: 4em;
+    padding: 0;
+}
+
+.author, .translator {
+    font-style: italic;
+}
+
+@media print {
+    #header {
+        width: 100%;
+        margin-top: 50%;
+        text-align: left;
+        page-break-after: always;
+    }
+    #container {
+        width: 440px;
+        margin-left: 80px;
+    }
+
+    @page {
+        margin: 1in 0;
+    }
+    p, h4 {
+        line-height: 135%;
+    }
+    h3 {
+        font-size: 20pt;
+        margin-top: 7em;
+    }
+    h4 {
+        border-width: 1px 0;
+        border-style: solid;
+        border-color: #ddd;
+        padding: 1em 2em;
+        font-style: italic;
+        page-break-after: always;
+    }
+
+    hr {
+        visibility: hidden;
+        page-break-after: always;
+    }
+
+    ul.dialogue li {
+        line-height: 135%;
+    }
+
+    .author, .translator {
+        margin-top: 0.2em;
+    }
+    .author-note {
+        color: #ddd;
+    }
+    .translator-note {
+        color: #aaa;
+    }
+}
+
+@media screen {
+    html {
+        background-color: #ffe;
+    }
+
+    body {
+        color: #444;
+        width: 860px;
+    }
+
+    p, h4 {
+        line-height: 130%;
+    }
+    h4 {
+        padding: 1em;
+        background-color: #ddd;
+    }
+
+    ul.dialogue li {
+        line-height: 130%;
+    }
+
+    .author, .translator {
+        margin-top: 0.5em;
+        font-size: 14pt;
+    }
+
+    .author, .author-note {
+        color: #669;
+    }
+    .translator, .translator-note {
+        color: #696;
+    }
+}
