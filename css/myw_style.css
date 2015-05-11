@@ -1,242 +1,120 @@
-/* Stylesheet for Personal Webpage 
- * MYW 7/17/05
- */
+/* Global Element Styles */
 
-/* Globals */
-body { 
-	margin:                0;
-	padding:               0;
-	/*font-family:           "Palatino Linotype", palatino, "Times New Roman", serif */;
-	font-family:           "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background:        #ddd url("../img/myw-bg.gif") repeat-y fixed top center; 
-	/*background-image:      url(../img/bg.gif); */
-	/*background-image:    url(http://squidfingers.com/patterns/patterns/img_117.gif);*/
-	color:                 #eee;
-	height:                100%;
+html {
+  padding: 0;
+  margin: 0;
 }
+
+body {
+  color: #eee;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #ddd url("../img/myw-bg.gif") repeat-y fixed top center;
+
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  text-align: left;
+  background: #333;
+
+  width: 600px;
+
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  line-height: 20px;
+
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+header {
+  text-align: center;
+
+  width: 600px;
+  border: #949fa4 0px solid;
+  border-bottom-width: 1px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+footer  {
+  font-size: x-small;
+
+  width: 600px;
+  border: #949fa4 0px solid;
+  border-top-width: 1px;
+  padding: 3px 0 20px 0;
+  margin: auto;
+
+  position: relative;
+  bottom: 0;
+}
+
+figure {
+  padding: 5px;
+  border: 1px solid #949fa4;
+  margin: 15px;
+  margin-top: 0;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+}
+
 a {
-	text-decoration: none;
-	color:           #949fa4;
+  text-decoration: none;
+  color: #949fa4;
 }
-a:visited { 
-	color:          #999;
+a:visited {
+  color: #999;
 }
 a:hover {
-	color: #949fa4;
+  color: #949fa4;
 }
+
 address {
-	font-style: normal;
+  font-style: normal;
 }
-acronym {
-	border-bottom:  none;
-	text-transform: uppercase;
-	font-size:      smaller;
-}
+
 abbr {
-	border-bottom: none
+  border-bottom: none
 }
-ul {
-	list-style-type: none;
-}
-.block {
-	text-align:     left;
-	border-color:   #949fa4;
-	/*background:     #4f5155; */
-	margin:         30px 10px;
-	padding-bottom: 30px;
-	padding-left:   30px;
-	padding-right:  5px;
-	padding-top:    10px;
-	border-style:   solid;
-	border-width:   0;
-}
-.photo {
-	float:          right;
-	border-width:   1px;
-	border-style:   solid;
-	border-color:   #949fa4;
-	padding:        5px;
-	margin-right:   12px;
-	margin-top:     20px;
-	vertical-align: middle;
-	position:       relative;
-	bottom:         15px;
-}
-.photo img {
-	width: 176px;
-	height: 216px;
-}
-.colBlock {  
-	margin:       30px 10px;
-	background:   none;
-	padding:      0;
-	height: 9.5em;
-	border: solid #949fa4;
-	border-width: 1px 0;
-}
-.col {
-	padding-top: 1em; 
-	height: 100%;
-	border-color:   #949fa4;
-	width:		243px;
-	/*background:     #4f5155; */
-	padding-left:   30px;
-	border-style:   solid;
-	border-width: 0;
-}
+
+
+
+/* Utilitity Classes */
 .right {
-	float: right;
-}
-.datum {
-	margin: 2px 30px;
-}
-.focus {
-	margin:         10px 30px;
-	padding:        5px;
-	text-align:     center;
-	vertical-align: middle;
-}
-.photoCaption {
-	font-size:  xx-small;
-	text-align: right;
-	font-style: italic;
-}
-.sign {
-	color:      #aaa;
-	font-style: italic;
-}
-.comp {
-	color:       #ccc;
-	font-family: courier, monospace;
-}
-a.comp {
-	text-decoration: none;
-	color:           #949fa4;
+  float: right;
 }
 
-/* prop-clear trick */
-.clear {
-	height: 1px;
-	clear: both;
-	overflow: hidden;
+.left {
+  float: left;
 }
 
-.linkRef {
-	float:        left;
-	text-align: right;
-	width: 243px;
+/* Page Components */
+footer .left {
+  text-align: left;
 }
-.linkDesc {
-	margin:       2px 25px 2px 0;
-	width: 243px;
-	margin-left: 273px;
-	text-align: left;
-}
-.icon {
-	float:        left;
-	margin-left:  30px;
-	margin-right: -20px;
-}
-.linkBull {
-	float: left;
-	width: 30px;
-	text-align: center;
-	font-size: x-small;
-	padding-top: 0.3em;
-}
-.linkHead {
-	text-align: center;
+footer .right {
+  text-align: right;
 }
 
-/* IDs */
-#header {
-	text-align:          center;
-	border-color:        #949fa4; 
-	border-width:        1px;
-	border-bottom-style: solid;
-	width:               600px;
-}
-#header a:visited {
-	color: #aaa;
-}
-#about {
-	border-width: 1px 0 1px 0;
+figure.photo img {
+  width: 176px;
 }
 
-#footer  {
-	height:           10%;
-	border-width:     1px;
-	border-color:     #949fa4; 
-	border-top-style: solid;
-	font-size:        x-small;
-	position:         relative;
-	bottom:           0;
-	padding-top: 3px;
-	padding-bottom:   20px;
-}
-#footer a:visited {
-	color: #aaa;
-}
-#footer .left {
-	float:      left;
-	text-align: left;
-}
-#footer .right {
-	text-align: right;
-	float:      right;
-}
-#container {
-	background: #333; 
-	text-align:          left;
-	width:               600px;
-	min-height:          100%;
-	border-width:        0px;
-	border-color:        #949fa4; 
-	border-style:        solid;
-	padding:             30px;
-	margin-left:         auto;
-	margin-right:        auto;
-}
-
-#schedule {
-	border-collapse: separate;
-	table-layout:    fixed;
-	width:           100%;
-	padding:         0 10px;
-	margin-bottom:   30px;
-}
-#schedule caption {
-	margin:      30px 0 10px 0;
-	font-size:   x-large;
-	font-weight: bolder;
-}
-#schedule tr {
-	height: 25px;
-}
-#schedule th {
-	text-align: center;
-	width:      94px;
-}
-#schedule th.time {
-	width:        40px;
-	text-align:   left;
-	border-style: none;
-}
-#schedule td {
-	border-style: solid;
-	border-color:   #744d27; 
-	text-align:   center;
-	background:   #4682b4;
-	border-width: 3px;
-	margin:       9px;
-	padding:      6px;
-	/*-moz-border-radius: 15px;*/
-}
-#schedule td.blank {
-	border-style: none;
-	background:   none;
-}
-#schedule td.hidden {
-	display: none;
+.contact {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
