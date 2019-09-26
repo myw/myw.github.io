@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/myw01
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://myw.github.io
+  * I am myw01 (https://keybase.io/myw01) on keybase.
+  * I have a public key ASBWxko0R3dhbqfbPFjQALItr2wWb9Q4x3J9SYe3w-35kQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012063bf59f5cb2e7cda24992f80408936afa45d3f808752ad998afcb156544edd7a0a",
+      "host": "keybase.io",
+      "kid": "012056c64a344777616ea7db3c58d000b22daf6c166fd438c7727d4987b7c3edf9910a",
+      "uid": "2f3f735cc1c986bd5aa199a019b88219",
+      "username": "myw01"
+    },
+    "merkle_root": {
+      "ctime": 1569533764,
+      "hash": "f513b0ffc63ec995cf3ceabd78f9d6b748fd7ade37f445a4d94818e029c75d6d87ed914094b75215bd569bab7209bbaa474efa1773ce7a7c182fefb5838d78eb",
+      "hash_meta": "6bf37fcf3f3e467494e3911c6db3b215934eb0598d7bf5dce9e323622c15e9d6",
+      "seqno": 7760724
+    },
+    "service": {
+      "entropy": "hSB7p3XBwJeTkjgl09jLdEIS",
+      "hostname": "myw.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.5.0"
+  },
+  "ctime": 1569533878,
+  "expire_in": 504576000,
+  "prev": "e57870151e1d276a4617a989ad11ce25814297aa88766bb558048f9a9a9a916e",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgVsZKNEd3YW6n2zxY0ACyLa9sFm/UOMdyfUmHt8Pt+ZEKp3BheWxvYWTESpcCFcQg5XhwFR4dJ2pGF6mJrRHOJYFCl6qIdmu1WASPmpqakW7EIMjdkeIe20t2DYeqo0PEo72ZUZmOwhPddKqRB+OJ4ashAgHCo3NpZ8RAap0VUESKqJNgzA36+tDWKp0UJLNSQVPac8epz0FxTHRZkTziOiNvAZumytYN/0F9V5jVnDGJ/UsCVflApfPqCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJ3qmsLb2msuFAuU+tXavM30Ei3LiSenP+8GW8xIQyjeo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/myw01
+
+==================================================================
